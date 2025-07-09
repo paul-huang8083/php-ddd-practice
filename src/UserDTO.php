@@ -2,6 +2,7 @@
 
 class UserDTO
 {
+    // 改為 private，不要被直接依賴
     public string $name;
     public string $email;
 

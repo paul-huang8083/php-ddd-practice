@@ -13,6 +13,7 @@ class EmailVO
         $this->email = $email;
     }
 
+    // value 改為 get 比較直覺 => 命名直觀
     public function value(): string
     {
         return $this->email;
